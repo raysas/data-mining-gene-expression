@@ -34,8 +34,9 @@ The data is normalized to account for the differences and make sure the gene exp
 The project is to explore the data and see if there is a difference in gene expression levels between patients who tested positive for COVID-19 and those who tested negative. In the context of a data mining project, this can be used to identify genes that are differentially expressed between the two groups and can be used as biomarkers for COVID-19. In the classification seeting, we're building a model that can predict whether a patient is positive or negative for COVID-19 based on their gene expression levels.  
 
 <p align="center">
-  <img src="assets/heatmap.png" width=300 length=300>
-  [Genevia Technologies](https://geneviatechnologies.com/bioinformatics-analyses/rna-seq-data-analysis/).
+    <a href="https://geneviatechnologies.com/bioinformatics-analyses/rna-seq-data-analysis/">
+        <img src="assets/heatmap.png" width=300 length=300>
+    </a>
 </p>
 
 ### Loading the data
