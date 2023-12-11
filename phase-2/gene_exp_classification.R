@@ -39,7 +39,7 @@ library(MASS)
 
 
 #loading data accessed from GEO
-gene_exp <- read.csv("GSE231409_BRAVE_RNASeq_counts.csv")
+gene_exp <- read.csv("../data/GSE231409_BRAVE_RNASeq_counts.csv")
 rownames(gene_exp) <- gene_exp$target_id
 gene_exp <- gene_exp %>%
   dplyr::select(-target_id)
