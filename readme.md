@@ -6,7 +6,7 @@ This is a mutliphase projet for the Data Mining course at LAU in Fall 2023. The 
 - [Phase 2](https://github.com/raysas/data-mining-gene-expression/phase-2): Classification
 - [Phase 3](https://github.com/raysas/data-mining-gene-expression/phase-3): Clustering
 
-Phase 1 is in a seperate [reop](https://github.com/raysas/CO2-emissions-prediction). Phase 2 and 3 are done using the same dataset, withdrwan from GEO. The dataset is a collection of RNA0seq raw counts for 455 samples, involving 60705 genes, Out of the 455, 417 have  clear covid status (positive/negative). The dataset is available in the data folder. 
+Phase 1 is in a seperate [repo](https://github.com/raysas/CO2-emissions-prediction). Phase 2 and 3 are done using the same dataset, withdrwan from GEO. The dataset is a collection of _RNA-seq raw counts_ for 455 samples, involving 60705 genes, Out of the 455, 417 have  clear covid status (positive/negative). The dataset is available in the data folder. 
 
 ## Phase 2: Classification
 
