@@ -10,7 +10,7 @@ output:
 
 Libraries used in this project:
 
-<img src="assets/Bioconductor.png" width="200"><img src="assets/dplyr.png" width="200"><img src="assets/tibble.png" width="200"><img src="assets/ggplot2.png" width="200">
+<img src="../assets/Bioconductor.png" width="200"><img src="../assets/dplyr.png" width="200"><img src="../assets/tibble.png" width="200"><img src="../assets/ggplot2.png" width="200">
 
 <!-- this code is silent and will be seen just for us to install the packages-->
 
@@ -35,7 +35,7 @@ The project is to explore the data and see if there is a difference in gene expr
 
 <p align="center">
     <a href="https://geneviatechnologies.com/bioinformatics-analyses/rna-seq-data-analysis/">
-        <img src="assets/heatmap.png" width=300 length=300>
+        <img src="../assets/heatmap.png" width=300 length=300>
     </a>
 </p>
 
@@ -57,7 +57,7 @@ library(MASS)
 
 
 #loading data accessed from GEO
-gene_exp <- read.csv("GSE231409_BRAVE_RNASeq_counts.csv")
+gene_exp <- read.csv("../data/GSE231409_BRAVE_RNASeq_counts.csv")
 rownames(gene_exp) <- gene_exp$target_id
 gene_exp <- gene_exp %>%
   dplyr::select(-target_id)
@@ -1137,4 +1137,4 @@ Many many tutorials, mostly worth of noting:
 <!-- - [3] Lenz, M., Müller, F. J., Zenke, M., & Schuppert, A. (2016). Principal components analysis and the reported low intrinsic dimensionality of gene expression microarray data. Scientific reports, 6(1), 25696. -->
 
 
-<img src="assets/geo.png" width=200>
+<img src="../assets/geo.png" width=200>
