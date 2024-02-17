@@ -1,12 +1,14 @@
 # Data Mining Project
 
-This is a mutliphase projet for the Data Mining course at LAU in Fall 2023. The project is divided into 3 phases:
+_Made with love & tears & enthusiasm_
 
-- [Phase 1](https://github.com/raysas/CO2-emissions-prediction): Regression
+This is a mutliphase projet for the Data Mining course at LAU in Fall 2023. The project is divided into 3 phases, this repo consists of:
 - [Phase 2](https://github.com/raysas/data-mining-gene-expression/phase-2): Classification
 - [Phase 3](https://github.com/raysas/data-mining-gene-expression/tree/main/phase-3): Clustering
 
-Phase 1 is in a seperate [repo](https://github.com/raysas/CO2-emissions-prediction). Phase 2 and 3 are done using the same dataset, withdrwan from GEO. The dataset is a collection of _RNA-seq raw counts_ for 455 samples, involving 60705 genes, Out of the 455, 417 have  clear covid status (positive/negative). The dataset is available in the data folder. 
+Data: _Sars-Cov-2_ gene expression data from GEO. The data is available in the data folder.
+
+Phase 2 and 3 are done using the same dataset, withdrwan from GEO. The dataset is a collection of _RNA-seq raw counts_ for 455 samples, involving 60705 genes, Out of the 455, 417 have clear covid status (positive/negative). The dataset is available in the data folder. 
 
 ## Phase 2: Classification
 
@@ -31,3 +33,8 @@ Details on this phase [here](https://github.com/raysas/data-mining-gene-expressi
 ## Phase 3: Classification and Clustering
 
 In this phase we extended classification to include Decision Trees (DT) and moved to unsupervided learning approaches including Dimensionality Reduction (DR) and Clustering.
+
+## Contributors:
+
+- Roudy Bou Francis, [roudy.boufrancis@lau.edu](mailto:roudy.boufrancis@lau.edu) @Roudy-bf
+- Rayane Adam, [rayane.adam@lau.edu](mailto:rayane.adam@lau.edu) @raysas
